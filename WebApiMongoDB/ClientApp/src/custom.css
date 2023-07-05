@@ -1,0 +1,124 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 60px;
+}
+
+td {
+    padding: 5px;
+}
+
+th {
+    padding: 9px 15px;
+    font-weight: bold;
+}
+
+.add-btn {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    background-color: rgb(47, 117, 237);
+    padding: 3px;
+    border-radius: 4px;
+    width: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.add-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    margin-left: 10px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-btw {
+    justify-content: space-between;
+}
+
+.btn {
+    width: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn.add {
+    background-color: green;
+    color: white;
+}
+
+.btn.cancel {
+    background-color: yellow;
+}
+
+.delete-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-item {
+    background-color: white;
+    padding: 5px 15px 15px 15px;
+    border-radius: 9px;
+}
+
+.hidden {
+    display: none;
+}

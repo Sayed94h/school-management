@@ -1,0 +1,53 @@
+{
+  "name": "webapimongodb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "merge": "^2.1.1",
+    "oidc-client": "^1.11.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^9.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "ajv": "^8.11.0",
+    "cross-env": "^7.0.3",
+    "nan": "^2.16.0"
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
+  "resolutions": {
+    "css-what": "^5.0.1",
+    "nth-check": "^3.0.1"
+  },
+  "scripts": {
+    "prestart": "node aspnetcore-https && node aspnetcore-react",
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
