@@ -119,6 +119,43 @@ input {
     border-radius: 9px;
 }
 
+.waiting {
+    cursor: wait;
+}
+
+.loading {
+    font-weight: bold;
+    animation-name: load;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    width: 0px;
+    overflow: hidden;
+}
+
+@keyframes load {
+    0% {
+        width: 0px;
+    }
+
+    50% {
+        width: 4px;
+    }
+
+    100% {
+        width: 15px;
+    }
+}
+
+tr.waiting,
+tr.waiting td {
+    border: none;
+    overflow: visible;
+}
+
+tr.waiting td {
+    width: 100px;
+}
+
 .hidden {
     display: none;
 }

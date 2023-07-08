@@ -74,7 +74,7 @@ export default function Home ()
         </thead>
         <tbody>
           {
-            students.lenght === 0 ? <div className="row waiting"> <div>Loading</div> <div className="loading">...</div></div> :
+            students.length === 0 ? <tr className="row waiting"><td className="row">Loading<span className="loading">...</span></td></tr> :
               students.map( student => <tr key={student.id}>
                 <td>{student.firstName}</td>
                 <td>{student.lastName}</td>
