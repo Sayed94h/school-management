@@ -12,9 +12,10 @@ This is project is part of my YouTube Tutorial about Creating A Full Stack App u
 
 ## Todos before starting the app:
 
-1. Install dependencies for Web Api(check NuGet package manager).
-2. If there is the file `package-lock.json` remove it before doing the next step.
-3. Install dependencies for React: Jump to the ClientApp directory and run `npm install` in your terminal.
+1. Enter Your Own MongoDB Connection String inside `appsettings.json`.
+2. Install dependencies for Web Api(check NuGet package manager).
+3. If there is the file `package-lock.json` remove it before doing the next step.
+4. Install dependencies for React: Jump to the ClientApp directory and run `npm install` in your terminal.
 
 ### Info
 
