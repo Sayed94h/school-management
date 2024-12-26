@@ -3,7 +3,7 @@
 This is project is part of my YouTube Tutorial about Creating A Full Stack App using Reactjs, ASP .Net Core Web API and MongoDB.
 
 
-> Link to my YouTube Channel [https://www.youtube.com/@coding-aqyanoos](https://www.youtube.com/@coding-aqyanoos)
+> Link to my YouTube Channel [https://www.youtube.com/@CodingAqyanoos](https://www.youtube.com/@CodingAqyanoos)
 
 > Link to my website [https://aqyanoos.com](https://aqyanoos.com)
 
